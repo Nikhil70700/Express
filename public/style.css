@@ -1,0 +1,82 @@
+ /* Reset some basic styles */
+ body, h2, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(bgImg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  
+  /* Container for the login form */
+  .login-container {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  /* Heading styling */
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form labels */
+  .login-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input fields styling */
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .login-container button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    background: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background: #2980b9;
+  }
+  
+  /* Additional link styling */
+  .login-container .forgot-password {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .login-container .forgot-password a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 0.9rem;
+  }
